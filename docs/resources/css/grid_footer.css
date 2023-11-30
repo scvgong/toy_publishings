@@ -1,0 +1,10 @@
+.footer_container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: start;
+}
+
+li{
+    list-style: none;
+    text-align: start;
+}

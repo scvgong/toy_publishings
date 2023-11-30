@@ -1,0 +1,27 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.grid-container-item{
+    display: grid;
+    text-align: center;
+    border-style: solid;
+    padding: 20px;
+}
+
+.grid-item{
+    display: grid;
+    border-style: solid;
+    text-align: center;
+}
+
+.nav_1{
+    display: grid;
+    text-align: center;
+    list-style: none;
+}
+
+.item{
+    display: grid;
+}

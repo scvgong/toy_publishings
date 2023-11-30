@@ -1,0 +1,15 @@
+.nav{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: end;
+    list-style: none;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.nav-left{
+    justify-content: start;
+}
