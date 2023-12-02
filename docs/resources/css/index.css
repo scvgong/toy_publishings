@@ -12,6 +12,11 @@ h4{
     padding: 10px;
     /* margin: 2px; */
     text-align: center;
+    
+}
+
+.card-head{
+    border-style:groove;
 }
 
 .text{
@@ -22,6 +27,6 @@ h4{
     padding: 10px;
 }
 
-*{
+/* *{
     border-style: dotted;
-}
+} */
