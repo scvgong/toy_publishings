@@ -26,7 +26,7 @@
       <div class="container">
         <div class="header">
           <!-- 위 컨테이너 -->
-          <img class="" src="" alt="" width="72" height="57">
+          <img class="" src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
           <h2>Checkout form</h2>
           <p>Below is an example form built entirely with Bootstrap’s form controls. Each required form group has
             a validation state that can be triggered by attempting to submit the form without completing it.</p>
@@ -34,7 +34,7 @@
 
         <!-- 왼쪽 컨테이너 -->
         <div class="row">
-        <div class="col-6 justifiy-content-start">
+        <div class="col-8 justifiy-content-start">
           <h4 class="">Billing address</h4>
           <form class="" novalidate>
             <div class="row">
@@ -189,13 +189,14 @@
             </div>
 
             <hr class="">
-
-            <button class="btn btn-primary" type="submit">Continue to checkout</button>
-          </form>
+            <div class="d-grid">
+              <button class="btn btn-primary btn-block" type="submit">Continue to checkout</button>
+            </div>
+           </form>
         </div>
 
         <!-- 오른쪽 컨테이너 -->
-        <div class="col-6" >
+        <div class="col-4" >
           <h4 class="justifiy-content-between">
             <span class="text-primary">Your cart</span>
             <span class="">3</span>
@@ -229,7 +230,7 @@
               </div>
               <span class="">−$5</span>
             </li>
-            <li class="">
+            <li class="list-group-item">
               <span>Total (USD)</span>
               <strong>$20</strong>
             </li>
@@ -246,9 +247,11 @@
       </div>
     </main>
 
+    <!-- footer -->
+
     <footer class="container">
       <p class="header">&copy; 2017–2023 Company Name</p>
-      <ul class="row justifiy-content-around">
+      <ul class="row justifiy-content-between">
         <li class="col-4 footer_li"><a href="#">Privacy</a></li>
         <li class="col-4 footer_li"><a href="#">Terms</a></li>
         <li class="col-4 footer_li"><a href="#">Support</a></li>

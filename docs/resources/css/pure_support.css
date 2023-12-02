@@ -1,8 +1,16 @@
 .header{
     text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px
+    ;
 }
 
 .footer_li{
     list-style: none;
     text-align: center;
 }
+
+/* .container{
+    margin: 20px;
+    
+} */
