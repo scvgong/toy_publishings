@@ -12,11 +12,16 @@ h4{
     padding: 10px;
     /* margin: 2px; */
     text-align: center;
+    border-style: groove;
     
 }
 
 .card-head{
-    border-style:groove;
+    /* border-style:groove; */
+}
+
+.card-body{
+    /* border-style: groove; */
 }
 
 .text{
@@ -24,7 +29,7 @@ h4{
 }
 
 .container{
-    padding: 10px;
+    padding: 15px;
 }
 
 /* *{
